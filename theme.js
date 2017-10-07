@@ -51,35 +51,35 @@ export const defaultThemeVariables = {
   shadowColor: 'rgba(0, 0, 0, 0.1)',
 
   heading: {
-    fontFamily: 'Rubik-Regular',
+    fontFamily: 'System',
     fontStyle: 'normal',
     fontWeight: 'normal',
     color: '#222222',
     fontSize: 25,
   },
   title: {
-    fontFamily: 'Rubik-Regular',
+    fontFamily: 'System',
     fontStyle: 'normal',
     fontWeight: 'normal',
     fontSize: 20,
     color: '#222222',
   },
   subtitle: {
-    fontFamily: 'Rubik-Regular',
+    fontFamily: 'System',
     fontStyle: 'normal',
     fontWeight: 'normal',
     color: '#222222',
     fontSize: 15,
   },
   caption: {
-    fontFamily: 'Rubik-Regular',
+    fontFamily: 'System',
     fontStyle: 'normal',
     fontWeight: 'normal',
     fontSize: 12,
     color: '#666666',
   },
   text: {
-    fontFamily: 'Rubik-Regular',
+    fontFamily: 'System',
     fontStyle: 'normal',
     fontWeight: 'normal',
     fontSize: 15,
@@ -94,7 +94,7 @@ export const defaultThemeVariables = {
   navBarBackground: '#FFFFFF',
   navBarBorderColor: '#f2f2f2',
   navBarText: {
-    fontFamily: 'Rubik-Regular',
+    fontFamily: 'System',
     fontStyle: 'normal',
     fontWeight: 'normal',
     color: '#222222',
@@ -117,7 +117,7 @@ export const defaultThemeVariables = {
   subNavListBorderColor: '#e0e0e0',
 
   primaryButtonText: {
-    fontFamily: 'Rubik-Regular',
+    fontFamily: 'System',
     fontStyle: 'normal',
     fontWeight: '600',
     fontSize: 12,
@@ -633,8 +633,8 @@ export default (variables = defaultThemeVariables) => ({
 
       'shoutem.ui.Text': {
         color: variables.navBarBackground,
-        fontSize: 9,
-        fontWeight: 'bold',
+        fontSize: 15,
+        fontWeight: '700',
         textAlign: 'center',
       },
     },
@@ -1040,7 +1040,7 @@ export default (variables = defaultThemeVariables) => ({
         textAlign: 'center',
         marginVertical: 0,
         marginRight: 0,
-        fontFamily: 'Rubik-Medium',
+        fontFamily: 'System',
       },
 
       width: dimensionRelativeToIphone(120),
